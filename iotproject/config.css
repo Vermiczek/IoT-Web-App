@@ -1,0 +1,34 @@
+body{
+    background-color: #E4ECFF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.inputdata{
+   margin: 30px;
+   border: 10px;
+   border-color: black;
+   float:right;
+   position: relative;
+}
+
+.inputdata2{
+    border-color: black;
+    float:right;
+    position: relative;
+    top: 100px;
+    left: 357px;
+ }
+
+ .buttonisko{
+    border-radius: 5px;
+    border: 2px solid #9DB7F8;
+    background-color: #9DB7F8;
+    font-size: 50x;
+    color: whitesmoke;
+    width: 100px;
+ }
+
+ .buttonisko:focus{
+     outline-color: whitesmoke;
+     color: black;
+ }

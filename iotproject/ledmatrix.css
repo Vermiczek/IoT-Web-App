@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.content {
+    width: 80vw;
+    height: 80vh;
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.content .box{
+    width: 49%;
+    height: 100%;
+    display: inline-block;
+
+}
+.box .matrix {
+    width: fit-content;
+    height: fit-content;
+    float:left;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+
+}
+
+.matrix .row{
+    height: fit-content;
+
+}
+.row > button{
+    background-color: white;
+    border-style: outset;
+    border-color: #9DB7F8;
+    width: 25px;
+    height: 25px;
+
+}
+.box .controlers{
+    width: fit-content;
+    height: fit-content;
+    float:left;
+}
+
+.controlers>p{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+/* The slider itself */
+.slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 100%; /* Full-width */
+    height: 15px; /* Specified height */
+    background: white; /* Grey background */
+    border: 2px solid #9DB7F8;
+    border-radius: 5px;
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+}
+
+.controlers .color{
+    margin: 3vw;
+    margin-top: 35px;
+    margin-left: 4vw !important;
+    width: 60px;
+    height: 60px;
+    background: white;
+    border: 2px solid #9DB7F8;
+    border-radius: 5px;
+}
+
+.controlers button{
+    border-radius: 5px;
+    border: 2px solid #9DB7F8;
+    margin-top: 6vh;
+    background-color: #9DB7F8;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.controlers button:focus{
+     outline-color: whitesmoke;
+     color: black;
+ }

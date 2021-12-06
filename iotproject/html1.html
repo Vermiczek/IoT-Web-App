@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+	<!-- HTML file head: web page metadata -->
+	<head>
+		<title>Raspberry Pi IoT</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--CSS-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"/>
+        <!-- jQuery -->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+        <script type="text/javascript" src="function.js"></script>
+        <link rel="stylesheet" type="text/css" href="mainpage.css"/>
+	</head>
+
+
+	<!-- HTML file body: web page content -->
+	<body>
+		<h1 class = "uwu"><img class = "raspberry" src="raspberry.png"> 
+       <b>Raspberry Pi IoT</b></h1>
+        <div class="topnav">
+            <a  onClick = "unHide(1)" class = "btn" href="chartsHTP.html" target="pageSelectFrame">HTP charts</a>
+            <a  onClick = "unHide(2)" class = "btn" href="chartsRPY.html" target="pageSelectFrame">RPY charts</a>
+            <a  onClick = "unHide(3)" class = "btn" href="ledmatrix.html" target="pageSelectFrame">LED table</a>
+            <a  onClick = "unHide(4)" class = "btn" href="tableview.html" target="pageSelectFrame">Tableview</a>
+            <a  onClick = "unHide(5)" class = "btn" href="joystick.html" target="pageSelectFrame">Joystick</a>
+            <a  onClick = "unHide(6)" class = "btn" href="config.html" target="pageSelectFrame">Config</a>
+          </div> 
+          <div id="content" class = "content">
+    <iframe class = "ajfrejm" frameBorder="0" name="pageSelectFrame" id ="ajfrejm"></iframe>
+  </div>
+	</body>
+
+</html>

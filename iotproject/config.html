@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+	<!-- HTML file head: web page metadata -->
+	<head>
+		<title>Raspberry Pi IoT</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--CSS-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"/>
+        <!-- jQuery -->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+        <script type="text/javascript" src="config.js"></script>
+        <link rel="stylesheet" type="text/css" href="config.css"/>
+	</head>
+
+    <body>
+        <div class = "box">
+            <div class = inputs>
+                <div class="inputdata">
+                    <label>Ip Adress:   </label>      
+                    <input type ="text" class = "inputdataspace" id = "IPAdress"> 
+                </div> 
+                <div class="inputdata">
+                    <label>Sample time:</label>
+                    <input type ="text" class = "inputdataspace" id = "sampleTime">
+                </div>  
+                <div class="inputdata">
+                    <label>Sample quantity:</label>
+                    <input type ="text" class = "inputdataspace" id = "sampleQuantity"> 
+                </div>
+            </div>
+            <div class = "inputdata2">
+                <button type="button" class="buttonisko" onclick="loadConfig()">Load</button>
+                <button type="button" class="buttonisko" onclick="saveConfig()">Send</button>
+            </div>
+        </div>
+	</body>
+
+</html>

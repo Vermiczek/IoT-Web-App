@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.table {
+    width: 80%;
+    height: fit-content;
+    margin: 50px;
+    border-radius: 5px;
+
+}
+
+.table .setup_bar {
+    padding: 10px;
+
+}
+
+
+.setup_bar > div{
+    display:inline-block;
+    font-weight: bold;
+    font-size: 35px;
+    padding: 10px;
+    vertical-align: middle;
+}
+#tableKey{
+    width: 200px;
+    height: 35px;
+    vertical-align: middle;
+
+}
+
+#tableKey option{
+    width: 100px;
+    height: 100px;
+}
+
+
+
+.button1 {
+    vertical-align: middle;
+    border-radius: 5px;
+    border: 2px solid #9DB7F8;
+    background-color: #9DB7F8;
+    border-style: outset;
+    color: white;
+    text-decoration: none;
+    font-size: 35px;
+    cursor: pointer;
+    width: fit-content;
+    height: fit-content;
+}
+
+
+.button1:focus{
+    outline-color: whitesmoke;
+    color: black;
+}
+
+.data_table{
+    padding: 10px;
+    border: 2px solid #9DB7F8;
+    border-radius: 5px;
+    overflow: auto;
+}
+
